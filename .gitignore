@@ -56,3 +56,10 @@ winutil.ps1
 binary/
 
 .preprocessor_hashes.json
+
+### Kiro Specs ###
+# Ignore spec working files but keep the spec definitions
+.kiro/specs/**/tasks.md
+.kiro/specs/**/design.md
+.kiro/specs/**/.tasks-backup/
+.kiro/specs/**/*.log
